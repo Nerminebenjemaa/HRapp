@@ -1,8 +1,6 @@
 import { Component, ViewChild, ElementRef, OnDestroy } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
-import * as moment from 'moment';
-import * as $ from 'jquery';
 // import { Subscription } from 'rxjs/Subscription';
 
 @Component({

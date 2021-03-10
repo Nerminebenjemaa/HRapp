@@ -26,7 +26,7 @@ const appRoutes: Routes = [
     AppComponent, HomeComponent, LoginComponent, HeaderComponent, AboutComponent
   ],
   imports: [
-    BrowserModule,  RouterModule.forRoot(appRoutes)
+    BrowserModule,  RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' })
   ],
   providers: [],
   bootstrap: [AppComponent]
